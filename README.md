@@ -2,10 +2,10 @@
 
 ## Repository Navigation
 <pre>
-Technical Notebook         : <a href=>Technical Notebook</a>
-Code                       : <a href=>Code</a>
-Data                       : <a href=>Data</a>
-Data Web                   : <a href=>Data Web</a>
+Technical Notebook         : <a href=https://github.com/Debanjan-C/Adult_Income/blob/main/Notebook/Technical%20Notebook.ipynb>Technical Notebook</a>
+Code                       : <a href=https://github.com/Debanjan-C/Adult_Income/blob/main/Notebook/Code.ipynb>Code</a>
+Data                       : <a href=https://github.com/Debanjan-C/Adult_Income/blob/main/Data/adult.csv>Data</a>
+Data Web                   : <a href=https://www.kaggle.com/uciml/adult-census-income>Data Web</a>
 </pre>
 
 ## Table of Contents
