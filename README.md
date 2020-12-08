@@ -22,9 +22,10 @@ Data Web                   : <a href=>Data Web</a>
 
 
 ## Business Goals
+For this project, I am a Data Scientist in the US Census bureau. Te government has announced a special package or benefit for all individuals who are earning less than 50k. My colleagues collected the data of different individuals who are over the age of 16. My role comes when we double check whether their claims on salary are accurate based on all other types of data that they are providing or if they are bluffing in order to get the benefits. There are many details, but the main ones collected from individuals are their age, education, occupation, race, gender, capital gain, capital loss, hours per week that they work and income (Which was used) as a target. Our dataset has about 32561 rows or that many individuals and 15 columns initailly. I removed one of them as it showed categorical labels for individuals and there education, but it did not start from 0 and started from one which would cause trouble when modelling. The target value has details about whether an individuals salary was greater than or less than/equal to 50K. My goal was to verify the accuracy about whether the salary range of aspecific individual was correct or seemed fishy. I used different types of methods and technologies like data cleaning, feature engineering and exploratory data analysis to undersand the data in more details and evaluate where to be alert or pay attention. Following that, I use logistic regression, decision trees and random forest methods to verify if the income category mentione was correct or not. I compared all three models and realized that one is relatively better than the other one. In order to help enhance and improve the model in the fine tuning step, I decided to remove major outliers in the data columns or features that may have been playing a role with pulling the overall score down. After removing the outliers, I realized that the the accuracy, precision and the recall scores rose by a specfic amount. I also noticed that the random forest model showed the best scores in terms of the accuracy.
 
-
-**Technical Goals:**
+**Technical or Machine Learning Goals:**
+The  machine learning goal is to use Logistic Regression, Decision tree and Random Forest model to evaluate which model shows the best accuracy results and will help us determine the accurac y behind whether all the feature match the target dataset. We are trying to develop a model that is higher than an accuracy score of 75% as 75% was what out score was when we divided the number of individuals who earned more than 50K salary with the total number of indidivuals.
 
 
 ## Motivation and Background
@@ -40,7 +41,7 @@ http://archive.ics.uci.edu/ml/datasets/Adult
 This dataset contains information that was extracted from a census in a past year. The individuals are above age 16 and the dataset contains information about individuals, their work type (private company employee, government employee, etc), their education levels, marital status, occupation (like technical field, farmer, etc), their race and many more information. The dataset then shows us the income column as the target column and that shows us if an individuals salary is above or below $50K. 
 
 ### Data Dictionary
-
+Our dataset has about 32561 rows or that many individuals and 15 columns initailly. I removed one of them as it showed categorical labels for individuals and there education, but it did not start from 0 and started from one which would cause trouble when modelling. So 14 columns
 - age: (int data type), numerical data. It contains each of the individuals - -- workclass: (string/object data type), cateogorical data. It contains the details of what type of work type each individual has liek private job, government job, etc. 
 - fnlwgt: (int data type), numerical data. This is a final weight ranking section that is determined by the amount of folks who are over 16, Hispanic and they evaluate the weight by the race, age and sex. 
 - education: (string/object data type), cateogorical data. It contains the education completed levels of each of the individuals int he census. Some have completed up to high school, some have gone to college, some are still in school.
