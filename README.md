@@ -77,4 +77,6 @@ Last Updated : December 2020
 <pre>
 - Dataset: https://www.kaggle.com/uciml/adult-census-income
 - Dataset inspired by: http://archive.ics.uci.edu/ml/datasets/Adult
+- https://www.usnews.com/news/us/articles/2020-02-03/report-census-hasnt-tested-tasks-to-catch-people-who-lie
+- https://federalnewsnetwork.com/federal-newscast/2020/03/spreading-false-information-about-2020-census-could-land-you-in-jail-if-new-bill-becomes-law/
 </pre>
