@@ -13,8 +13,8 @@ Data Web                   : <a href=https://www.kaggle.com/uciml/adult-census-i
 [Overview](#overview) -
 [Business Goals](#business-goals) -
 [Motivation and Background](#motivation-and-background) -
-[Data](#data) 
-[Contributor](#contributor)
+[Data](#data) -
+[Contributor](#contributor) -
 [Software Requirements - Packages used](#software-requirements--packages-used) -
 [Reference and contribution](#reference-and-contribution)
 
