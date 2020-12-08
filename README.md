@@ -15,7 +15,7 @@ Data Web                   : <a href=https://www.kaggle.com/uciml/adult-census-i
 [Motivation and Background](#motivation-and-background) -
 [Data](#data) -
 [Contributor](#contributor) -
-[Software Requirements - Packages used](#software-requirements--packages-used) -
+[Software Requirements - Packages used](https://github.com/Debanjan-C/Adult_Income#software-requirements---packages-used) -
 [Reference and contribution](#reference-and-contribution)
 
 ## Overview
